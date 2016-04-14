@@ -55,7 +55,7 @@ public class TextFPSCounter : MonoBehaviour
 				}
 				else
 				{
-					text.text = "";
+					//text.text = "";
 				}
 			}
 			// reset for the next interval to measure
