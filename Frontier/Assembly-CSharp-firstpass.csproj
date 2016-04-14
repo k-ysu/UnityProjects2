@@ -46,26 +46,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_Skin.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_WrappingPaper.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Documents\ReadMe.txt" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_Fur.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\license_en.txt" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_Standard.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_Snow.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_Halloween.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\license_jp.txt" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_velvet.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_VertexShadow.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_HW_Ghost.shader" />
      <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_Ribbon.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_TreeLight.shader" />
      <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
-     <None Include="Assets\ImportAssets\PQAssets\Query-Chan\Shaders\PQ_TransBlue.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
