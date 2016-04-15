@@ -1,15 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TaichiCharacterPack/TwinViewer/Scripts/taichi_twin_viewscript.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editer/VRBuildSettings.cs">
     <Files>
-      <File FileName="Assets/Cardboard/Scripts/UI/CardboardGaze.cs" Line="7" Column="50" />
-      <File FileName="Assets/Idole.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editer/VRBuildSettings.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editer/TextFPSCounter.cs" Line="1" Column="1" />
-      <File FileName="Assets/Editer/TargetFPS.cs" Line="1" Column="1" />
-      <File FileName="Assets/ImportAssets/PQAssets/Query-Chan/license_jp.txt" Line="1" Column="1" />
-      <File FileName="Assets/ChangeScene.cs" Line="1" Column="1" />
-      <File FileName="Assets/TaichiCharacterPack/TwinViewer/Scripts/taichi_twin_viewscript.js" Line="93" Column="7" />
+      <File FileName="Assets/Cardboard/Scripts/UI/CardboardGaze.cs" Line="1" Column="1" />
+      <File FileName="Assets/Cardboard/Scripts/GazeInputModule.cs" Line="218" Column="14" />
+      <File FileName="Assets/Scripts/MoveCamera.cs" Line="20" Column="25" />
+      <File FileName="Assets/Editer/VRBuildSettings.cs" Line="25" Column="80" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

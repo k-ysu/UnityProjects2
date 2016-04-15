@@ -58,6 +58,9 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
      <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/yasushi.komori/Script/UnityProjects2/Frontier/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -102,6 +105,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B9519C6D-A42C-1C25-84E3-26AB5370805C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{5F543894-07EA-4B0C-95A1-2F6375D2AEFB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>

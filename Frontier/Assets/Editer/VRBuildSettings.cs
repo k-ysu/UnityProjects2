@@ -9,7 +9,7 @@ public class VRBuildSettings {
 	[MenuItem("VR Build Settings/Build GearVR")]
 	static void BuildGearVRSettings() {
 		PlayerSettings.virtualRealitySupported = true;
-		Cardboard cardboard = (Cardboard)GameObject.FindGameObjectWithTag ("Player").GetComponent<Cardboard> ();
+		Cardboard cardboard = (Cardboard)GameObject.FindGameObjectWithTag ("Cardboard").GetComponent<Cardboard> ();
 		CardboardHead cardboardHead = cardboard.gameObject.transform.GetChild (0).GetComponent<CardboardHead>();
 		cardboard.VRModeEnabled = false;
 		cardboardHead.trackPosition = false;
@@ -22,7 +22,7 @@ public class VRBuildSettings {
 	[MenuItem("VR Build Settings/Build Cardboard")]
 	static void BuildCardboardSettings() {
 		PlayerSettings.virtualRealitySupported = false;
-		Cardboard cardboard = (Cardboard)GameObject.FindGameObjectWithTag ("Player").GetComponent<Cardboard> ();
+		Cardboard cardboard = (Cardboard)GameObject.FindGameObjectWithTag ("Cardboard").GetComponent<Cardboard> ();
 		CardboardHead cardboardHead = cardboard.gameObject.transform.GetChild (0).GetComponent<CardboardHead>();
 		cardboard.VRModeEnabled = true;
 		cardboardHead.trackPosition = true;
